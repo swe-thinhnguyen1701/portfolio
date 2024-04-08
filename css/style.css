@@ -35,6 +35,12 @@ h2{
     }
 }
 
+@media screen and (min-width: 1024px){
+    h2{
+        font-size: 4.2rem;
+    }
+}
+
 /* List */
 .list{
     display: flex;
