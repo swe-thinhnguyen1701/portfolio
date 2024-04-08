@@ -130,12 +130,9 @@ nav .list{
 }
 
 /* main */
-/* main{
-    margin-left: 270px;
-    padding-top: 20px;
-} */
 main{
-    margin-top: 40px ;
+    margin-top: 40px;
+    padding: 0 10px;
 }
 
 /* Greeting */
@@ -145,10 +142,44 @@ main{
     line-height: 2;
 }
 
+.greeting__self-introduction, .greeting__job-position{
+    font-family: sans-serif;
+}
+
 .greeting__self-introduction{
-    display: inline-block;
-    margin-left: 40px;
-    font-size: 3rem;
     color: var(--primary-color);
+    display: inline-block;
+    font-size: 2.95rem;
     line-height: 1;
+    margin-left: 40px;
+}
+
+.greeting__job-position{
+    font-size: 1.3rem;
+    line-height: 1;
+}
+
+@media screen and (min-width: 768px){
+    main{
+        padding: 0 20px;
+    }
+    .greeting__self-introduction{
+        font-size: 6rem;
+    }
+
+    .greeting__job-position{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    main{
+        margin-left: 270px;
+        margin: 0 20px 0 270px;
+        padding-top: 20px;
+    }
+
+    .greeting__self-introduction{
+        font-size: 7rem;
+    }
 }
