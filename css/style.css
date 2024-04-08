@@ -141,6 +141,7 @@ main{
     flex-direction: column;
     justify-content: space-between;
     height: 60vh;
+    margin-bottom: 22vh;
     color: var(--secondary-color);
     font-family: fantasy;
     line-height: 2;
@@ -170,6 +171,7 @@ main{
 
     .greeting{
         height: 70vh;
+        margin-bottom: 10vh;
     }
 
     .greeting__self-introduction{
@@ -190,6 +192,7 @@ main{
 
     .greeting{
         height: 80vh;
+        margin-bottom: 20vh;
     }
 
     .greeting__self-introduction{
@@ -219,3 +222,8 @@ main{
         font-size: 1.5rem;
     }
 }
+
+/* About me */
+/* #about-me{
+    margin-top: 30px;
+} */
