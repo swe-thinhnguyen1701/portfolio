@@ -2,6 +2,7 @@
     --background-color: #1d1d1d;
     --primary-color: #fff;
     --secondary-color: #949090;
+    --contact-button-color:#00fbd9;
 }
 
 *{
@@ -136,6 +137,10 @@ main{
 
 /* Greeting */
 .greeting{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
     color: var(--secondary-color);
     font-family: fantasy;
     line-height: 2;
@@ -162,6 +167,11 @@ main{
     main{
         padding: 0 20px;
     }
+
+    .greeting{
+        height: 70vh;
+    }
+
     .greeting__self-introduction{
         font-size: 6rem;
     }
@@ -178,7 +188,34 @@ main{
         padding-top: 20px;
     }
 
+    .greeting{
+        height: 80vh;
+    }
+
     .greeting__self-introduction{
         font-size: 7rem;
+    }
+}
+
+/* Button */
+.btn{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    /* border-radius: 20px; */
+    padding: 10px 40px;
+    font-size: 1.4rem;
+}
+
+.btn--contact-me{
+    align-self: center;
+    border-color: var(--contact-button-color);
+    color: var(--contact-button-color);
+}
+
+@media screen and (min-width: 768px){
+    .btn--contact-me{
+        align-self: flex-start;
+        font-size: 1.5rem;
     }
 }
