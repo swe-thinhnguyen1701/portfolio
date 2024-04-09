@@ -159,7 +159,10 @@ nav .list {
 /* main */
 main {
   margin-top: 30px;
-  padding: 0 10px;
+}
+
+.greeting, #about-me, #contact-me{
+  margin: 0 10px;
 }
 
 /* Greeting */
@@ -196,11 +199,10 @@ main {
 @media screen and (min-width: 768px) {
   main {
     margin-top: 10px;
-    padding: 0 20px;
   }
 
   .greeting {
-    height: 75vh;
+    height: 70vh;
     margin-bottom: 10vh;
   }
 
@@ -218,13 +220,12 @@ main {
   main {
     margin-left: 270px;
     margin: 0 20px 0 270px;
-    padding-top: 20px;
   }
 
   .greeting {
-    height: 72vh;
-    margin-bottom: 20vh;
-    margin-top: 40px;
+    height: 75vh;
+    margin-bottom: 25vh;
+    padding-top: 50px;
   }
 
   .greeting__self-introduction {
@@ -294,4 +295,44 @@ main {
     #contact-me .list{
         flex-direction: row;
     }
+}
+
+/* Resume */
+#resume{
+  background-color: var(--primary-color);
+  width: 100%;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px var(--secondary-color);
+}
+
+.resume__section{
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.resume__name{
+  color: black;
+  font-size: 4rem;
+  margin: 0;
+}
+
+#resume .list{
+  flex-direction: column;
+}
+
+#resume .list__item{
+  margin-bottom: 10px;
+}
+
+.resume__heading{
+  font-size: 1.9rem;
+  margin-bottom: 7px;
+}
+
+.resume__content {
+  margin: 0;
+  margin-left: 25px;
 }
