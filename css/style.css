@@ -299,6 +299,7 @@ main {
 
 /* Resume */
 #resume{
+  margin-top: 200px;
   background-color: var(--primary-color);
   width: 100%;
   color: black;
