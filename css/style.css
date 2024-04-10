@@ -407,19 +407,24 @@ form{
 
 /* Resume */
 #resume{
-  margin-top: 200px;
-  background-color: var(--primary-color);
-  width: 100%;
+  margin-top: 200px;  
   color: black;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0 0 30px var(--secondary-color);
+}
+
+.resume__heading{
+  margin-left: 18px;
+  font-size: 2rem;
 }
 
 .resume__section{
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  box-shadow: 0 0 30px var(--secondary-color);
   font-size: 1.4rem;
-  margin-bottom: 5px;
   line-height: 1.5;
+  margin-top: 30px;
+  padding: 10px;
+  width: 100%;
 }
 
 .resume__name{
@@ -444,6 +449,18 @@ form{
 .resume__content {
   margin: 0;
   margin-left: 25px;
+}
+
+@media screen and (min-width: 768px){
+  .resume__heading{
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .resume__heading{
+    font-size: 4.2rem;
+  }
 }
 
 /* Social media */
