@@ -1,23 +1,68 @@
 <section id="contact-me">
-    <h2>Contact me</h2>
+  <h2>Contact me</h2>
+  <article class="social-media">
     <ul class="list">
-      <li class="list__item">(123) 345-6789</li>
-      <li class="list__item">swe.thinhnguyen@gmail.com</li>
       <li class="list__item">
         <a
-          href="https://www.linkedin.com/in/thinh-nguyen-10b31a218/"
           class="link"
+          href="https://www.facebook.com/ThinhNguyen1701/"
           target="_blank"
-          >linkedIn</a
         >
+          <img class="icon" src="images/facebook.png" alt="" />
+          <p>Facebook</p>
+        </a>
       </li>
       <li class="list__item">
         <a
           class="link"
           href="https://github.com/swe-thinhnguyen1701"
           target="_blank"
-          >github</a
         >
+          <img src="images/github.png" alt="github icon" class="icon" />
+          <p>Github</p>
+        </a>
+      </li>
+      <li class="list__item">
+        <a
+          class="link"
+          href="https://www.linkedin.com/in/thinh-nguyen-10b31a218/"
+          target="_blank"
+        >
+          <img
+            src="images/linkedin.png"
+            alt="linkedIn icon"
+            class="icon"
+          />
+          <p>LinkedIn</p>
+        </a>
       </li>
     </ul>
-  </section>
+  </article>
+  <form>
+    <div class="form-group">
+      <label class="form-label" for="name">Your name</label>
+      <input
+        class="form-input"
+        type="text"
+        id="name"
+        placeholder="Enter your name"
+      />
+    </div>
+    <div class="form-group">
+      <label class="form-label" for="email">Your email</label>
+      <input
+        class="form-input"
+        type="email"
+        id="email"
+        placeholder="Enter your email"
+      />
+    </div>
+    <div class="form-group">
+      <label class="form-label label-message" for="message"
+        >Your message</label
+      >
+      <textarea class="form-input message" id="message"></textarea>
+    </div>
+    <button type="reset" class="btn-send">Send message</button>
+  </form>
+</section>
