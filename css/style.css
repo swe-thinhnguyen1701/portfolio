@@ -512,58 +512,6 @@ form {
   }
 }
 
-/* .resume__heading{
-  margin-left: 18px;
-  font-size: 2rem;
-}
-
-.resume__section{
-  background-color: var(--primary-color);
-  border-radius: 10px;
-  box-shadow: 0 0 30px var(--secondary-color);
-  font-size: 1.4rem;
-  line-height: 1.5;
-  margin-top: 30px;
-  padding: 10px;
-  width: 100%;
-}
-
-.resume__name{
-  color: black;
-  font-size: 4rem;
-  margin: 0;
-}
-
-#resume .list{
-  flex-direction: column;
-}
-
-#resume .list__item{
-  margin-bottom: 10px;
-}
-
-.resume__heading{
-  font-size: 1.9rem;
-  margin-bottom: 7px;
-}
-
-.resume__content {
-  margin: 0;
-  margin-left: 25px;
-}
-
-@media screen and (min-width: 768px){
-  .resume__heading{
-    font-size: 3rem;
-  }
-}
-
-@media screen and (min-width: 1024px){
-  .resume__heading{
-    font-size: 4.2rem;
-  }
-} */
-
 /* Social media */
 .icon {
   width: 35px;
